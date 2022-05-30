@@ -1,0 +1,95 @@
+body{
+  background-color: white;
+}
+h1{
+  font-style: italic;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 2px;
+  -webkit-box-shadow: 5px 5px 10px 2px #333333 inset;
+  -moz-box-shadow: 5px 5px 10px 2px #333333 inset;
+
+}
+#contain{
+  height: 400px;
+  width: 300px;
+  border: 1px solid transparent;
+  background-color: grey;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 38px, rgba(0, 0, 0, 0.6) 0px 15px 12px ;
+}
+#display{
+  margin: 50px auto;
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 2px;
+  -webkit-box-shadow: 5px 5px 10px 2px #333333 inset;
+ -moz-box-shadow: 5px 5px 10px 2px #333333 inset;
+
+
+}
+button[id="less"]:hover{
+  opacity: 1;
+}
+
+#more{
+  color : white;
+  height: 40px;
+  width: 100px;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 38px, rgba(0, 0, 0, 0.6) 0px 15px 12px ;
+
+}
+#more:hover{
+  opacity: 0.9;
+}
+#more:active{
+  transform: scale(0.9);
+}
+#less{
+  color: white;
+  height: 40px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 38px, rgba(0, 0, 0, 0.6) 0px 15px 12px ;
+}
+#less:hover{
+  opacity: 0.9;
+}
+#less:active{
+  transform: scale(0.9);
+}
+#reset{
+  height: 30px;
+  width: 200px;
+  margin: 50px;
+  font-size: 20px;
+  font-style:oblique;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 38px, rgba(0, 0, 0, 0.6) 0px 15px 12px ;
+}
+#reset:hover{
+  opacity: 0.9;
+}
+#reset:active{
+  transform: scale(0.9);
+}
